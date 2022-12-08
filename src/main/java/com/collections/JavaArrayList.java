@@ -19,6 +19,7 @@ public class JavaArrayList {
             List<String> list2 = new ArrayList<>();
             list2.add("samsung");
             System.out.println(list.stream());
+            System.out.println("hi");
            // System.out.println(list.size());    //returns numbers of elements = 5
           //  list.retainAll(list2 );     //retains the specified collections values
            // list.removeIf(Predicate.isEqual("apple"));    //removes what u predicate
