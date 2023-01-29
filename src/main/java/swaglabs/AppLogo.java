@@ -10,5 +10,6 @@ public class AppLogo {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/");
         driver.manage().window().maximize();
+        driver.close();
     }
 }
