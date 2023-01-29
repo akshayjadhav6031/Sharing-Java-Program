@@ -18,10 +18,10 @@ public class JavaArrayList {
             list.add("samsung");
             List<String> list2 = new ArrayList<>();
             list2.add("samsung");
-            System.out.println(list.stream());
+          //  System.out.println(list.stream());
             System.out.println("hi");
            // System.out.println(list.size());    //returns numbers of elements = 5
-          //  list.retainAll(list2 );     //retains the specified collections values
+           // list.retainAll(list);     //retains the specified collections values
            // list.removeIf(Predicate.isEqual("apple"));    //removes what u predicate
             //list.removeAll(list);     //removes all the elements from collection
            // list.remove("samsung");       //removes the element
@@ -33,8 +33,8 @@ public class JavaArrayList {
            // System.out.println(list.containsAll(list2));  //provides true value
           //  System.out.println(list.contains("apple"));    //provides true value
          //   list.addAll(2, Collections.singleton("thing"));     //adds element at specified location
-            for (Object mobilebrands : list) {
-                System.out.println(mobilebrands);
+            for (Object mobilebrands : list2) {
+              //  System.out.println(mobilebrands);
 
             }
 

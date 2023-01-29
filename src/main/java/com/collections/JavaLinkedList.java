@@ -4,9 +4,10 @@ import java.util.LinkedList;
 
 public class JavaLinkedList {
     public static void main(String[] args) {
-            LinkedList<Integer>list1 = new LinkedList();
+            LinkedList<Integer>list1 = new LinkedList<>();
             list1.add(11);
             list1.add(22);
+        list1.addFirst(33);
             for (Object age : list1){
                 System.out.println(age);
             }
@@ -22,6 +23,7 @@ public class JavaLinkedList {
             System.out.println(list1.containsAll(list2));
             System.out.println(list1.removeFirst());
             System.out.println(list1.isEmpty());
+
         }
     }
 

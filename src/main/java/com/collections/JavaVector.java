@@ -5,7 +5,7 @@ import java.util.Vector;
 public class JavaVector {
     public static void main(String[] args) {
         Vector<String> list1 = new Vector<>();
-        Vector<String> list2 = new Vector<String>();
+        Vector<String> list2 = new Vector<>();
         list1.add("mango");
         list1.add("grapes");
         list1.add("banana");
