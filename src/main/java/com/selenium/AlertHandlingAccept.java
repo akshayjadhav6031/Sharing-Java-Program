@@ -17,5 +17,5 @@ public class AlertHandlingAccept {
         a.accept();
         Thread.sleep(3000);
         driver.close();
-    }
 }
+    }
